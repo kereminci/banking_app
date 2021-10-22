@@ -27,7 +27,7 @@ public class Admin extends javax.swing.JFrame {
          jTextField8.setEditable(false);
         
         try{
-             connection = DriverManager.getConnection("jdbc:derby://localhost:1527/Hesap", "kereminci52", "123kerem123");
+             connection = DriverManager.getConnection("jdbc:derby://localhost:1527/Hesap", "username", "password");
              statement = connection.createStatement();
         }
         catch(Exception e){
